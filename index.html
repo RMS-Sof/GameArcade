@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Games Galore</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+            font-family: 'Comic Sans MS', cursive;
+            margin: 0;
+            padding: 20px;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            text-shadow: 3px 3px #ff00ff;
+            animation: bounce 2s infinite;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .game-card {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+            border: 3px dashed #ffcc00;
+        }
+
+        .game-card:hover {
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        .gif-placeholder {
+            width: 100px;
+            height: 100px;
+            background: #fff;
+            border-radius: 10px;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #ff00ff;
+            border: 2px solid #00ff00;
+            animation: spin 4s infinite linear;
+        }
+
+        .game-link {
+            color: #ffff00;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            margin-top: 10px;
+            text-shadow: 1px 1px #ff00ff;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-30px); }
+            60% { transform: translateY(-15px); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .game-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Funny Games Galore! By Prof. Rahul M. Samant</h1>
+    <div class="game-grid">
+        <div class="game-card">
+            <div class="gif-placeholder">SLIDER</div>
+            <a href="https://rms-sof.github.io/Slider/" class="game-link">Slider</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">T-T-T</div>
+            <a href="https://rahulsamant2019.github.io/TTTGame/" class="game-link">Tic-Tac-Toe</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">WORD</div>
+            <a href="https://rms-sof.github.io/Secret/" class="game-link">Guess The Word</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">SLOT</div>
+            <a href=" https://rms-sof.github.io/SlotMachine/" class="game-link">Slot Machine</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">FLAG</div>
+            <a href="https://rms-sof.github.io/Flag/" class="game-link">Identify the Flag</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">Currency</div>
+            <a href="https://rms-sof.github.io/Currancy/" class="game-link">Identify The Currency</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">WHEEL</div>
+            <a href=" https://rms-sof.github.io/SpinWheel/" class="game-link">Wheel of Fortune</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">SHOOT</div>
+            <a href=" https://rms-sof.github.io/Shoot/" class="game-link">Shooting Game</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">PONG</div>
+            <a href="https://rms-sof.github.io/Pong/" class="game-link">Ping Pong</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">DICE</div>
+            <a href="https://rms-sof.github.io/Dice/" class="game-link">Dice Throw</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">SNAKE</div>
+            <a href="https://rms-sof.github.io/Snake/" class="game-link">Snake</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">MATCH</div>
+            <a href="https://rms-sof.github.io/Matching/" class="game-link">Match the Pair</a>
+        </div>
+	<div class="game-card">
+            <div class="gif-placeholder">Eggs</div>
+            <a href="https://rms-sof.github.io/Eggs/" class="game-link">Eggs Catcher</a>
+        </div>
+	<div class="game-card">
+            <div class="gif-placeholder">ComputerSpace</div>
+            <a href="https://rms-sof.github.io/ComputerSpace/" class="game-link">Computer Space</a>
+        </div>
+
+        <div class="game-card">
+            <div class="gif-placeholder">TETRIS</div>
+            <a href="  https://rms-sof.github.io/Tetris/" class="game-link">Tetris</a>
+        </div>
+        <div class="game-card">
+            <div class="gif-placeholder">QUIZ</div>
+            <a href="https://rms-sof.github.io/GQuiz/" class="game-link">GK Quiz</a>
+        </div>
+    </div>
+</body>
+</html>
